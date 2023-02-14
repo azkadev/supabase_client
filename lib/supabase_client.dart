@@ -5,6 +5,7 @@ library supabase_client;
 import 'package:supabase_client/storage/storage.dart';
 import "database/database.dart";
 
+export "package:supabase/supabase.dart";
 export "database/database.dart";
 export "storage/storage.dart";
 

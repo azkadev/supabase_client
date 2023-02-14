@@ -1,5 +1,6 @@
 // import 'package:supabase/supabase.dart';
 
+
 import 'package:supabase_client/supabase_client.dart';
 
 void main(List<String> arguments) async {
@@ -11,3 +12,4 @@ void main(List<String> arguments) async {
       .update(from: "from", dataOrigin: {"id": 5}, dataUpdate: {"id": 10});
   await supabase.delete(from: "from", datas: {"id": 10});
 }
+ 
