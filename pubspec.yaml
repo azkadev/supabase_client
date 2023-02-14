@@ -1,0 +1,14 @@
+name: supabase_client
+description: Database supabase.
+version: 0.0.16
+homepage: https://github.com/azkadev/telegram_client/tree/main/dart/telegram_client/docs
+repository: https://github.com/azkadev/telegram_client/tree/main/dart/telegram_client
+issue_tracker: https://github.com/azkadev/telegram_client/issues
+
+environment:
+  sdk: '>=2.16.0 <3.0.0'
+
+dev_dependencies:
+  lints: ^2.0.0
+dependencies: 
+  supabase: ^1.5.1
