@@ -1,19 +1,16 @@
-# Supabase client
+IyBTdXBhYmFzZSBjbGllbnQKCgojIyBJbnN0YWxsCmBgYGJhc2gKZGFydCBw
+dWIgYWRkIHN1cGFiYXNlX2NsaWVudApgYGAKCiMjIFF1aWNrU3RhcnQKYGBg
+ZGFydAp2b2lkIG1haW4oTGlzdDxTdHJpbmc+IGFyZ3VtZW50cykgYXN5bmMg
+ewogIHZhciBzdXBhYmFzZSA9IERhdGFiYXNlKCJpZCIsICJrZXkiKTsKICBh
+d2FpdCBzdXBhYmFzZS5hZGQoZnJvbTogImZyb20iLCBkYXRhOiB7ImlkIjog
+RGF0ZVRpbWUubm93KCl9KTsKICBhd2FpdCBzdXBhYmFzZS5nZXQoZnJvbTog
+ImZyb20iLCBkYXRhSWQ6ICJpZCIsIHNlYXJjaERhdGE6IHIiXjUkIik7CiAg
+YXdhaXQgc3VwYWJhc2UuZ2V0QWxsKGZyb206ICJkYXRhIik7CiAgYXdhaXQg
+c3VwYWJhc2UudXBkYXRlKGZyb206ICJmcm9tIiwgZGF0YU9yaWdpbjogeyJp
+ZCI6IDV9LCBkYXRhVXBkYXRlOiB7ImlkIjogMTB9KTsKICBhd2FpdCBzdXBh
+YmFzZS5kZWxldGUoZnJvbToiZnJvbSIsIGRhdGFzOnsiaWQiOiAxMH0pOwp9
+CmBgYA==
 
-
-## Install
-```bash
-dart pub add supabase_client
-```
-
-## QuickStart
-```dart
-void main(List<String> arguments) async {
-  var supabase = Database("id", "key");
-  await supabase.add(from: "from", data: {"id": DateTime.now()});
-  await supabase.get(from: "from", dataId: "id", searchData: r"^5$");
-  await supabase.getAll(from: "data");
-  await supabase.update(from: "from", dataOrigin: {"id": 5}, dataUpdate: {"id": 10});
-  await supabase.delete(from:"from", datas:{"id": 10});
-}
-```
+<!-- START GLOBAL CORPORATION -->
+404: Not Found
+<!-- END GLOBAL CORPORATION -->
